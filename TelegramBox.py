@@ -69,7 +69,7 @@ while True:
 			time.sleep(1)
 			subprocess.Popen(['import', '-window', 'root', 'screenshot.png'])
 			time.sleep(3)
-			sendPhoto(PAVEL, '/home/pavel/screenshot.png')
+			sendPhoto(PAVEL, 'screenshot.png')
 			time.sleep(1)
 			sendMessage(PAVEL, 'Поймал???')
 
